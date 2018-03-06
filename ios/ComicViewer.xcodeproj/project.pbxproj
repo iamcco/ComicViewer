@@ -588,6 +588,7 @@
 				00E356EF1AD99517003FC87E /* ComicViewerTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				CF277062204EF57F00D45621 /* Recovered References */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -612,6 +613,14 @@
 				2D16E6721FA4F8DC00B85C8A /* libRCTBlob-tvOS.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		CF277062204EF57F00D45621 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				0FBC31728AA64B06B6E02CC0 /* libRNFetchBlob.a */,
+			);
+			name = "Recovered References";
 			sourceTree = "<group>";
 		};
 		CF3E49B9204C379F00C8453F /* Products */ = {
