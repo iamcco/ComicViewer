@@ -1,5 +1,6 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React, { Component } from 'react'
+import SplashScreen from 'react-native-splash-screen'
 
 const styles = StyleSheet.create({
   container: {
@@ -10,6 +11,10 @@ const styles = StyleSheet.create({
 })
 
 export default class App extends Component {
+  componentDidMount () {
+    SplashScreen.hide()
+  }
+
   render () {
     return (
       <View style={styles.container}>
