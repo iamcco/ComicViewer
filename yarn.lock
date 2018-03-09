@@ -2983,8 +2983,8 @@ jsbn@~0.1.0:
   resolved "https://registry.yarnpkg.com/jsbn/-/jsbn-0.1.1.tgz#a5e654c2e5a2deb5f201d96cefbca80c0ef2f513"
 
 jsdom-jscore-rn@^0.1.0:
-  version "0.1.4"
-  resolved "https://registry.yarnpkg.com/jsdom-jscore-rn/-/jsdom-jscore-rn-0.1.4.tgz#3dcc9b2f1a230adf18ba29d4eab9afd72643547c"
+  version "0.1.6"
+  resolved "https://registry.yarnpkg.com/jsdom-jscore-rn/-/jsdom-jscore-rn-0.1.6.tgz#aca635378d04e12e1596e6612b3ec9eb82716148"
   dependencies:
     htmlparser2-without-node-native "^3.9.2"
     querystring "^0.2.0"
