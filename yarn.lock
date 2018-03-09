@@ -2611,7 +2611,7 @@ isobject@^2.0.0:
   dependencies:
     isarray "1.0.0"
 
-isomorphic-fetch@^2.1.1:
+isomorphic-fetch@^2.1.1, isomorphic-fetch@^2.2.1:
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/isomorphic-fetch/-/isomorphic-fetch-2.2.1.tgz#611ae1acf14f5e81f729507472819fe9733558a9"
   dependencies:
@@ -2982,7 +2982,7 @@ jsbn@~0.1.0:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/jsbn/-/jsbn-0.1.1.tgz#a5e654c2e5a2deb5f201d96cefbca80c0ef2f513"
 
-jsdom-jscore-rn@^0.1.0:
+jsdom-jscore-rn@^0.1.6:
   version "0.1.6"
   resolved "https://registry.yarnpkg.com/jsdom-jscore-rn/-/jsdom-jscore-rn-0.1.6.tgz#aca635378d04e12e1596e6612b3ec9eb82716148"
   dependencies:

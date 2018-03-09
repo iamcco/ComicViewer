@@ -1,12 +1,13 @@
-import 'react-native';
-import React from 'react';
-import App from '../App';
+import 'react-native'
 
-// Note: test renderer must be required after react-native.
-import renderer from 'react-test-renderer';
+import React from 'react'
+
+import renderer from 'react-test-renderer'
+
+import App from '../src'
 
 it('renders correctly', () => {
   const tree = renderer.create(
     <App />
-  );
-});
+  )
+})
