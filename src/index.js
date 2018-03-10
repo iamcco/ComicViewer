@@ -1,25 +1,15 @@
-import { StyleSheet, Text, View } from 'react-native'
+import { Provider } from 'react-redux'
 import React, { Component } from 'react'
-import SplashScreen from 'react-native-splash-screen'
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center'
-  }
-})
+import store from './store'
+import AppWithNavigationState from './navigators'
 
 export default class App extends Component {
-  componentDidMount () {
-    SplashScreen.hide()
-  }
-
   render () {
     return (
-      <View style={styles.container}>
-        <Text>Hello ComicViewer</Text>
-      </View>
+      <Provider store={store}>
+        <AppWithNavigationState />
+      </Provider>
     )
   }
 }
