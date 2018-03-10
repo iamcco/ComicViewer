@@ -37,10 +37,16 @@
     "pre-commit": "^1.2.2",
     "react-test-renderer": "16.2.0"
   },
+  "pre-commit": {
+    "run": "eslint"
+  },
   "jest": {
     "preset": "react-native",
     "setupFiles": [
       "./__tests__/env.js"
+    ],
+    "transformIgnorePatterns": [
+      "/!node_modules"
     ]
   }
 }
